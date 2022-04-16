@@ -1,3 +1,5 @@
+[説明書(日本語)](https://github.com/yamaserif/digFiles/blob/main/README_jp.md) | [readme(English)](https://github.com/yamaserif/digFiles/blob/main/README.md)
+
 # digFiles
 In programming, it is often recommended to divide processes into functions or files for reuse in terms of readability and maintainability of source code. 
 
