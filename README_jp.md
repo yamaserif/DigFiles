@@ -1,3 +1,5 @@
+[説明書(日本語)](https://github.com/yamaserif/digFiles/blob/main/README_jp.md) | [readme(English)](https://github.com/yamaserif/digFiles/blob/main/README.md)
+
 # digFiles
 プログラミングにおいて一つ一つの処理を関数やファイルといった形で分割して再利用することは、ソースの可読性や保守性などの観点から基本的に推奨されています。   
 このプログラミング言語「digFiles」では、フォルダ・ファイル構造を利用しそのファイル数と記述方法に制限を設けることで処理の分割を強制します。
