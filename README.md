@@ -9,6 +9,7 @@ In programming, it is often recommended to divide processes into functions or fi
 - The folder will contain "0 or more folders" OR "0 to 1 file". 
 - The extension does not affect the processing. 
 - The ActionId is the order of execution in "ascending order in case of case-insensitive string comparison of ordinal numbers". (Corresponds to "StringComparer.OrdinalIgnoreCase" in C#.)   
+- The VariableId should be an integer value.
 
 （Note that '《' and '》' should not be written when actually filling in the form. ）  
 （The "_《arbitrary character》" can be omitted.） 
