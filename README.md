@@ -1,9 +1,9 @@
-[説明書(日本語)](https://github.com/yamaserif/digFiles/blob/main/README_jp.md) | [readme(English)](https://github.com/yamaserif/digFiles/blob/main/README.md)
+[説明書(日本語)](https://github.com/yamaserif/DigFiles/blob/main/README_jp.md) | [readme(English)](https://github.com/yamaserif/DigFiles/blob/main/README.md)
 
-# digFiles
+# DigFiles
 In programming, it is often recommended to divide processes into functions or files for reuse in terms of readability and maintainability of source code. 
 
-"digFiles" enforces the division of processes by setting a limit on the number of files and the way they are described using a folder/file structure.
+"DigFiles" enforces the division of processes by setting a limit on the number of files and the way they are described using a folder/file structure.
 
 ## specification
 - The folder will contain "0 or more folders" OR "0 to 1 file". 
