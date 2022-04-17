@@ -11,7 +11,7 @@ In programming, it is often recommended to divide processes into functions or fi
 - The ActionId is the order of execution in "ascending order in case of case-insensitive string comparison of ordinal numbers". (Corresponds to "StringComparer.OrdinalIgnoreCase" in C#.)   
 
 （Note that '《' and '》' should not be written when actually filling in the form. ）  
-（The "_《arbitrary character》" can be omitted because it is effectively for comments.） 
+（The "_《arbitrary character》" can be omitted.） 
  
 ### folder name 
 |  notation                            |  meaning                                                                                                              |
