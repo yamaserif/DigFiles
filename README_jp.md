@@ -1,8 +1,8 @@
-[説明書(日本語)](https://github.com/yamaserif/digFiles/blob/main/README_jp.md) | [readme(English)](https://github.com/yamaserif/digFiles/blob/main/README.md)
+[説明書(日本語)](https://github.com/yamaserif/DigFiles/blob/main/README_jp.md) | [readme(English)](https://github.com/yamaserif/DigFiles/blob/main/README.md)
 
-# digFiles
+# DigFiles
 プログラミングにおいて一つ一つの処理を関数やファイルといった形で分割して再利用することは、ソースの可読性や保守性などの観点から基本的に推奨されています。   
-このプログラミング言語「digFiles」では、フォルダ・ファイル構造を利用しそのファイル数と記述方法に制限を設けることで処理の分割を強制します。
+このプログラミング言語「DigFiles」では、フォルダ・ファイル構造を利用しそのファイル数と記述方法に制限を設けることで処理の分割を強制します。
 
 ## 仕様
 - フォルダ内には「フォルダ0個以上」or「ファイル0～1個」が格納される。 
