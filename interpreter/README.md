@@ -8,7 +8,7 @@ VariableId: -2,147,483,648 ～ 2,147,483,647
 value: -2,147,483,648 ～ 2,147,483,647
 
 ## How to use
-Build and run the "DigFiles_interpreter" project on your own.
+Build and run the "DigFiles_interpreter" project on your own.  
 At this time, the internal variable tables, etc. can be checked when DEBUG is built.
 
 Paths and input values are also given by command line arguments.
