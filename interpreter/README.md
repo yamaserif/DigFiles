@@ -4,7 +4,7 @@
 This project is a DigFiles interpreter made in C#.
 
 ## Interpreter Limits
-VariableId: -2,147,483,648 ～ 2,147,483,647
+VariableId: -2,147,483,648 ～ 2,147,483,647  
 value: -2,147,483,648 ～ 2,147,483,647
 
 ## How to use
