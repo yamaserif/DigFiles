@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DigFiles_interpreter": {
+      "commandName": "Project",
+      "commandLineArgs": "..\\..\\..\\..\\..\\..\\example\\Hello,World!(jp-command) abcdef test"
+    }
+  }
+}

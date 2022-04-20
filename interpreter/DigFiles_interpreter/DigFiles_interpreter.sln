@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigFiles_interpreter", "DigFiles_interpreter\DigFiles_interpreter.csproj", "{F78EEC1F-8620-4F12-B1FA-B155749713F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigFiles_Test", "DigFiles_Test\DigFiles_Test.csproj", "{8A03B43D-0869-4066-9965-FD354D9CF587}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F78EEC1F-8620-4F12-B1FA-B155749713F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78EEC1F-8620-4F12-B1FA-B155749713F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78EEC1F-8620-4F12-B1FA-B155749713F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78EEC1F-8620-4F12-B1FA-B155749713F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A03B43D-0869-4066-9965-FD354D9CF587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A03B43D-0869-4066-9965-FD354D9CF587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A03B43D-0869-4066-9965-FD354D9CF587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A03B43D-0869-4066-9965-FD354D9CF587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D7D9A74-B467-4106-8F12-F19762DAD82B}
+	EndGlobalSection
+EndGlobal
