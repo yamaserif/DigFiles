@@ -13,19 +13,19 @@ In programming, it is often recommended to divide processes into functions or fi
 - The uninitialized variable value is a random number value from 0~99. (In this case, the calculation method of the random number value is not specified.)
 
 （Note that '《' and '》' should not be written when actually filling in the form. ）  
-（The "_《arbitrary character》" can be omitted.） 
+（The ".《arbitrary character》" can be omitted.） 
  
 ### folder name 
 |  notation                            |  meaning                                                                                                              |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| 《ActionId》_《arbitrary character》  | [Action block (definition)]A block of actions (executed in the same hierarchy in the order of the youngest action id) |
-| 《#ActionId》_《arbitrary character》 | [Action block (definition)]A block of actions (only executed in [Action block (call)]                                 |
+| 《ActionId》.《arbitrary character》  | [Action block (definition)]A block of actions (executed in the same hierarchy in the order of the youngest action id) |
+| 《#ActionId》.《arbitrary character》 | [Action block (definition)]A block of actions (only executed in [Action block (call)]                                 |
  
 ### file name 
 |  notation                            |  meaning                            |
 | ------------------------------------ | ----------------------------------- |
-| 《Command》_《arbitrary character》   | [Action piece]Action                |
-| 《*ActionId》_《arbitrary character》 | [Action block (call)]Calling action |
+| 《Command》.《arbitrary character》   | [Action piece]Action                |
+| 《*ActionId》.《arbitrary character》 | [Action block (call)]Calling action |
 
 ### File Contents 
 Multiple arguments separated by spaces (see "Command" for details)  
