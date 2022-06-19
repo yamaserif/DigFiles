@@ -26,6 +26,9 @@ namespace DigFiles_interpreter.Classes.Command
             var outByte = BitConverter.GetBytes(this.RunData.Variables.GetVariable(arg1, this.RunData.Random));
             var outString = System.Text.Encoding.UTF8.GetString(outByte);
             Console.Write(outString);
+#if DEBUG
+            Program.outData += outString;
+#endif
         }
     }
 }

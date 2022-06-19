@@ -8,6 +8,9 @@ namespace DigFiles_interpreter
 {
     class Program
     {
+#if DEBUG
+        public static string outData = string.Empty;
+#endif
         static void Main(string[] args)
         {
             // 1st args: Program path
@@ -25,6 +28,11 @@ namespace DigFiles_interpreter
             var runData = new RunData(userInput, variables, actions, random);
 
             Run.Start(baseDirPath, runData);
+
+#if DEBUG
+            Console.WriteLine("output↓");
+            Console.Write(Program.outData);
+#endif
         }
     }
 }

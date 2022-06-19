@@ -51,7 +51,15 @@ namespace DigFiles_interpreter.Business
                     break;
 
                 default:
-                    throw new DigFilesException("Undefined command.");
+                    if (commandName.StartsWith("%"))
+                    {
+                        Run.Start(runData.Actions[commandName.TrimStart('%')], runData);
+                        return;
+                    }
+                    else
+                    {
+                        throw new DigFilesException("Undefined command.");
+                    }
             }
 
             command.Execute();

@@ -27,8 +27,9 @@ namespace DigFiles_interpreter.Classes.Command
             while (this.RunData.Variables.GetVariable(arg1, this.RunData.Random) !=
                   this.RunData.Variables.GetVariable(arg2, this.RunData.Random))
             {
-                var subRunData = new RunData(this.RunData.UserInput, this.RunData.Variables, this.RunData.Actions, this.RunData.Random);
                 Run.Start(this.RunData.Actions[arg3], this.RunData);
+                arg1 = Commands.PreLoadVariableId(Args[0], this.RunData.Variables, this.RunData.Random);
+                arg2 = Commands.PreLoadVariableId(Args[1], this.RunData.Variables, this.RunData.Random);
             }
         }
     }
