@@ -25,7 +25,7 @@ In programming, it is often recommended to divide processes into functions or fi
 |  notation                            |  meaning                            |
 | ------------------------------------ | ----------------------------------- |
 | 《Command》.《arbitrary character》   | [Action piece]Action                |
-| 《*ActionId》.《arbitrary character》 | [Action block (call)]Calling action |
+| 《%ActionId》.《arbitrary character》 | [Action block (call)]Calling action |
 
 ### File Contents 
 Multiple arguments separated by spaces (see "Command" for details)  
